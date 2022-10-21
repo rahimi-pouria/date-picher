@@ -1,0 +1,115 @@
+// all colors variables and classes stored here
+// class names like c-color means a class that append a color property to that element
+// class names like b-color means a class that append a background-color property to that element
+$title:#000000;
+$titlehover:#4d4040;
+$text:#707070;
+$red:red;
+$startnow:#11B4BD;
+$blue:#0685B5;
+$shadow:#00000070;
+$shadows:#00000029;
+$homebg:#E3FBFF;
+$navbg:#E3FBFF;
+$navside:#e3fbffe0;
+$serachbg:#E3FBFF;
+$black: #000000;
+$colorWhite: #fff;
+$greenbg: #11B4BD;
+$startlearn:#43434321;
+$HoverGray: #E2E2E2;
+$star: #FFBC33;
+$star:#FFBC33;
+$footerbg:#232323;
+$border:#46464650;
+$green:green;
+
+.c-green{
+  color: $green;
+}
+.b-red{
+  background-color: $red !important;
+}
+.b-grey{
+  background-color: $text !important;
+}
+.c-red{
+  color: $red !important;
+}
+.c-grey{
+  color: $text !important;
+}
+.f-white{
+  fill: white;
+}
+.b-footerbg{
+  background-color: $footerbg;
+}
+.b-gray{
+  background-color: $HoverGray;
+}
+.c-white{
+  color: white !important;
+}
+.b-startnow{
+  background-color: $startnow;
+}
+.c-title{
+  color: $title;
+  transition: 300ms;
+  &:hover{
+    color: $titlehover;
+}
+}
+.c-text{
+  color: $text;
+}
+.c-red{
+  color: $red;
+}
+.c-blue{
+  color: $blue;
+}
+.c-shadow{
+  color: $shadow;
+}
+.b-homebg{
+  background-color: $homebg;
+}
+.b-navbg{
+  background-color: $navbg;
+}
+.b-startlearn{
+  background-color: $startlearn;
+}
+//hover color
+.b-reds{
+  &:hover{
+    background: #FF2727 !important;
+}
+}
+.b-DarkGreen{
+  &:hover{
+    background: #009E0B !important;
+}
+}
+.b-DarkPurple{
+  &:hover{
+    background: #DF2AF8 !important;
+}
+}
+.b-DarkBlue{
+  &:hover{
+    background: #0685B5 !important;
+}
+}
+.b-whiteBlue{
+  &:hover{
+    background: #00BAFF !important;
+}
+}
+.b-yellow{
+  &:hover{
+    background: #FFFF00 !important;
+}
+}
